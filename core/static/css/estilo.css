@@ -1,0 +1,83 @@
+body{
+  background-image: url("/imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+  text-align: center;
+  width: 95%;
+  margin: 0px auto;
+}
+.img_publicidad{
+  height: 100%;
+  width: 70%;
+  padding: 25px 25px 25px 25px;
+}
+.inicio{
+  color: black;
+  text-indent: 10px;
+  font-size: 50px;
+}
+.texto{
+  color:black;
+  text-align: center;
+  text-indent: 10px;
+  font-size: 15px;
+}
+.texto2{
+  color: black;
+  text-align: center;
+  text-indent: 10px;
+  white-space: nowrap;
+}
+.table1{
+  width: 100%;
+  border: 3px solid green;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  padding: 25px 25px 25px 25px;
+}
+.titulo1{
+  color: black;
+  text-indent: 10px;
+  font-size: 50px;
+}
+.titulo2{
+  color: black;
+  text-indent: 10px;
+  font-size: 20px;
+}
+.productos{
+  color: black;
+  text-indent: 10px;
+  font-size: 20px;
+}
+.imgproductos{
+  height: 100%;
+  width: 100%;
+  padding: 25px 25px 25px 25px;
+}
+
+@media screen and (max-width: 860px) {
+  .columna,.fila{
+    display:block;
+  }
+  .texto{
+    font-size: 12px;
+  }
+  .texto2{
+    display: none;
+  }
+  .img_publicidad{
+    height: 100%;
+    width: 80%;
+    padding: 25px 25px 25px 25px;
+  }
+  .productos{
+    font-size: 12px
+  }
+}
